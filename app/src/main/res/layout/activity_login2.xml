@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.LoginActivity2">
+
+    <TextView
+        android:id="@+id/login2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Create Account"
+        android:textColor="@color/toplogin"
+        android:textSize="35sp"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/logintext2"
+        android:layout_below="@id/login2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Create your account and feel the benefit"
+        android:textColor="#767E8C"
+        android:textSize="15sp"
+        android:textAlignment="center"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputusername"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logintext2"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:paddingHorizontal="20dp"
+        app:boxBackgroundColor="@color/box"
+        app:boxStrokeColor="@color/textlogin"
+        app:endIconTint="@color/textlogin"
+        app:helperText="Enter your Username"
+        app:helperTextTextColor="@color/red"
+        app:hintTextColor="@color/textlogin"
+        app:passwordToggleEnabled="false">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editusername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:inputType="textEmailAddress"
+            android:lines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:helperText="Enter your Password"
+            app:helperTextTextColor="@color/red"
+            app:passwordToggleEnabled="true"
+            app:boxBackgroundColor="@color/box"
+            android:layout_below="@id/inputusername"
+            android:paddingHorizontal="20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:inputType="textPassword"
+                android:hint="Password"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/buttonsignup"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/inputpass"
+        android:layout_marginTop="220dp"
+        android:backgroundTint="@color/main_color"
+        android:layout_centerHorizontal="true"
+        android:text="Sign Up"
+        android:textSize="17sp"
+        android:textAllCaps="false"
+        app:cornerRadius="15dp"
+        />
+
+</RelativeLayout>

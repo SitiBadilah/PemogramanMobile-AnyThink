@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TodoListTutorial</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="place_holder">Place Holder</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="SplashScreen">Halo, Selamat Datang Di To Do List Application</string>
+    <string name="Tittle1">AnyThink</string>
+    <string name="Caption1">the best to do list application for you</string>
+    <string name="Tittle2">Find the practicality in making your todo list</string>
+    <string name="Caption2">Easy-to-understand user interface  that makes you more comfortable when you want to create a task or to do list, Todyapp can also improve productivity</string>
+    <string name="Continue">Continue</string>
+    <string name="title_activity_login1">Login1</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="Welcome">Welcome to</string>
+    <string name="any">AnyThink</string>
+    <string name="Cwelcome">Continue with email</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

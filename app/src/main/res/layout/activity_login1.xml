@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.LoginActivity1">
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="1080dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="Welcome Back!"
+            android:textColor="@color/toplogin"
+            android:textSize="35sp"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/logintext1"
+            android:layout_below="@id/login"
+            android:layout_width="1080dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Your work faster and structured with Todyapp"
+            android:textColor="#767E8C"
+            android:textSize="15sp"
+            android:textAlignment="center"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputemail"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logintext1"
+        android:layout_marginTop="28dp"
+        android:padding="20dp"
+        app:boxBackgroundColor="@color/box"
+        app:helperText="Enter your E-mail"
+        app:helperTextTextColor="@color/red">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:lines="1" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <Button
+            android:id="@+id/buttonnext"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/inputemail"
+            android:layout_marginTop="300dp"
+            android:backgroundTint="@color/main_color"
+            android:layout_centerHorizontal="true"
+            android:text="Next"
+            android:textSize="17sp"
+            android:textAllCaps="false"
+            app:cornerRadius="15dp"
+            />
+
+</RelativeLayout>
